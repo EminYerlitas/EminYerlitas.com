@@ -1,0 +1,35 @@
+package selectandalert;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.utils.neotech.BaseClass;
+
+public class ChallengingTask extends BaseClass {
+
+	public static void main(String[] args) {
+		/*
+		 * Homework 3: Open chrome browser Go to
+		 * "https://semantic-ui.com/modules/dropdown.html" Scroll down to
+		 * "Multiple Selection" Click on drop down and select "CSS" and "HTML" Verify
+		 * value has been selected Deselect 1 of the options from the dropdown Quit
+		 * browser
+		 */
+
+		setUp();
+		WebElement element=driver.findElement(By.cssSelector("#example > div.pusher > div > div.article > div.main.ui.container > div.ui.active.tab > div:nth-child(9) > div"));
+	    element.click();
+		WebElement css=driver.findElement(By.xpath("//*[@id=\"example\"]/div[4]/div/div[2]/div[4]/div[1]/div[8]/div/div[2]/div[2]"));
+		WebElement html=driver.findElement(By.xpath("//*[@id=\"example\"]/div[4]/div/div[2]/div[4]/div[1]/div[8]/div/div[2]/div[5]"));
+		css.click();
+		html.click();
+		if(css.isDisplayed()) {
+			System.out.println("CSS has been selected");
+		}
+		if(html.isDisplayed()) {
+			System.out.println("HTML has been selected");
+		}
+		
+	}
+
+}

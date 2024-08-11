@@ -1,0 +1,44 @@
+package overriding;
+
+public class Computer {
+	/*
+	 * Create a Class Computer that will have 4 subclasses as Apple, Lenovo, HP,
+	 * Dell. ▪ Define some common behavior (methods) and some fields in the parent
+	 * class, and override some of the methods in the child classes. ▪ Define some
+	 * methods specific to the child classes. ▪ Create objects of the child classes
+	 * and store them in an array. ▪ Loop through each object and execute available
+	 * methods.
+	 */
+	public void displayInfo(int storage, int ram, String displaycard) {
+		System.out.println("Storage: "+storage+" Ram: "+ram+" Display card: "+displaycard);
+	}
+
+}
+class Apple extends Computer{
+	public void displayInfo(int storage, int ram, String displaycard) {
+		System.out.println("Storage: "+storage+" Ram: "+ram+" Display card: "+displaycard);
+	}
+	public void OS() {
+		System.out.println("OS is: Mac");
+	}
+	
+}
+class Lenovo extends Computer{
+	public void displayInfo(int storage, int ram, String displaycard) {
+		System.out.println("Storage: "+storage+" Ram: "+ram+" Display card: "+displaycard);		
+	}
+	
+	
+}
+class HP extends Computer{
+	public void displayInfo(int storage, int ram, String displaycard) {
+		System.out.println("Storage: "+storage+" Ram: "+ram+" Display card: "+displaycard);
+	}
+	
+}
+class Dell extends Computer{
+	public void displayInfo(int storage, int ram, String displaycard) {
+		System.out.println("Storage: "+storage+" Ram: "+ram+" Display card: "+displaycard);
+	}
+	
+}

@@ -1,0 +1,7 @@
+##--- Step 1 --- 
+##Create properties
+##We will change some of the properties in order to our requirements for next projects.
+browser=safari
+url=https://hrm.neotechacademy.com/
+username=Admin
+password=Neotech@123

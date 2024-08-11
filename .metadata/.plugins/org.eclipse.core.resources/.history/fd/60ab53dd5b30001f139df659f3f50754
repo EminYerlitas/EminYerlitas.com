@@ -1,0 +1,20 @@
+package overriding;
+
+public class ComputerTest {
+
+	public static void main(String[] args) {
+		Computer a=new Apple();
+		Computer l=new Lenovo();
+		Computer h=new HP();
+		Computer d=new Dell();
+		Computer[]array={a,l,h,d};
+		for(Computer arr:array) {
+		      arr.displayInfo(0, 0, null);			
+		}
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package waits;
+
+import org.openqa.selenium.By;
+
+import com.utils.neotech.BaseClass;
+
+public class AddEmployee extends BaseClass {
+
+	/*
+	 * Homework 3: Add Employee Open chrome browser Go to
+	 * "https://hrm.neotechacademy.com/" Login into the application Click on PIM >
+	 * Add Employee Add Employee Log out Quit the browser
+	 */
+	public static void main(String[] args) {
+		setUp();
+		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
+		driver.findElement(By.id("txtPassword")).sendKeys("Neotech@123");
+		driver.findElement(By.xpath("//button[@type=\"submit\"]")).click();
+
+	}
+
+}

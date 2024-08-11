@@ -1,0 +1,9 @@
+Use WebDriverWait Verify element is enabled
+
+		 Open chrome browser
+		 Go to "https://neotech.vercel.app/" 
+		 Click on the "Interactions" link 
+		 Then click on "Waits"
+		 Click on enable button 
+		 Enter "Hello" and verify text is entered successfully 
+		 Close the browser
