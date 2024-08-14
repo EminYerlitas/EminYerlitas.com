@@ -1,0 +1,23 @@
+package waits;
+
+import org.openqa.selenium.By;
+
+import com.utils.neotech.BaseClass;
+
+public class NeotechAcademyPage extends BaseClass {
+
+	public static void main(String[] args) {
+		/*
+		 * // Task until 12:42 // Open https://neotech.vercel.app/windows // Click on
+		 * the button that opens NeoTech Academy page // Switch the focus back and forth
+		 * 10 times // Hint: You switch the two handles that you have in the set
+		 * 
+		 * // Find the time for the best disco movement
+		 * 
+		 */
+		setUp();
+        driver.findElement(By.id("windowButton")).click();
+        
+	}
+
+}

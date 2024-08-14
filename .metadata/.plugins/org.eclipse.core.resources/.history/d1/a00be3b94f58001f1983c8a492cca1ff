@@ -1,0 +1,20 @@
+package tables;
+
+import com.utils.neotech.BaseClass;
+
+public class UpdateCustomerInformation extends BaseClass {
+
+	public static void main(String[] args) {
+		/*
+		 * 1) Open chrome browser 2) Go to
+		 * "http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx"
+		 * 3) Login to the application 4) Verify customer "Susan McLaren" is present in
+		 * the table 5) Click on customer details 6) Update customers last name and
+		 * credit card info 7) Verify updated customers name and credit card number is
+		 * displayed in table 8) Close browser
+		 */
+        setUp();
+        
+	}
+
+}
