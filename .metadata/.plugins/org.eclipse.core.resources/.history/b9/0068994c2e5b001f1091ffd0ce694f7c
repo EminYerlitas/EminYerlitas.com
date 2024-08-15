@@ -1,0 +1,25 @@
+package windows;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+
+import com.utils.neotech.BaseClass;
+
+public class DemoGuruWindows extends BaseClass {
+
+	public static void main(String[] args) {
+		setUp();
+		driver.findElement(By.xpath("//a[@target='_blank']")).click();
+		Set<String>windows=driver.getWindowHandles();
+		Iterator<String>it=windows.iterator();
+		String window1=it.next();
+		String window2=it.next();
+		driver.switchTo().window(window2);
+		
+		
+		
+	}
+
+}

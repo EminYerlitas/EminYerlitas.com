@@ -1,0 +1,27 @@
+package windows;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.utils.neotech.BaseClass;
+
+public class NotaFriendlyTopic extends BaseClass {
+	/*
+	 * 1) Launch the browser and open the site
+	 * "https://neotech.vercel.app/iframe/multi2" 2) Verify on the page header
+	 * "Not a Friendly Topic" displayed 3) Click on the Inner Frame Check box 4)
+	 * Choose Dog from Animals dropdown 5) Quit the browser
+	 * 
+	 */
+
+	public static void main(String[] args) {
+		setUp();
+		WebElement header=driver.findElement(By.xpath("//div//span[contains(text(),'Not a Friendly Topic')]"));
+		if(header.getText().equals("Not a Friendly Topic")) {
+			System.out.println(header.isDisplayed());
+		}
+		driver.switchTo().frame("animals");
+
+	}
+
+}
