@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< Updated upstream
     <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
     <fullyQualifiedTypeName name="com.neotech.lesson01.TestClass"/>
     <fullyQualifiedTypeName name="java.security.DomainLoadStoreParameter"/>
@@ -24,4 +25,66 @@
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="io.cucumber.junit.Cucumber"/>
+=======
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
+    <fullyQualifiedTypeName name="com.utils.neotech.BaseClass"/>
+    <fullyQualifiedTypeName name="com.google.common.io.Files"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="io.opentelemetry.exporter.logging.SystemOutLogRecordExporter"/>
+    <fullyQualifiedTypeName name="day6.ConfigsReader"/>
+    <fullyQualifiedTypeName name="com.utils.neotech.ConfigsReader"/>
+    <fullyQualifiedTypeName name="day7.ConfigsReader"/>
+    <fullyQualifiedTypeName name="day8.Constants"/>
+    <fullyQualifiedTypeName name="day9.ConfigsReader"/>
+    <fullyQualifiedTypeName name="org.testng.ITestResult"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+    <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="utils01.ConfigsReader"/>
+    <fullyQualifiedTypeName name="utils02.Constants"/>
+    <fullyQualifiedTypeName name="utils02.ConfigsReader"/>
+    <fullyQualifiedTypeName name="utils03.ConfigsReader"/>
+    <fullyQualifiedTypeName name="com.neotech.testbase.BaseClass"/>
+    <fullyQualifiedTypeName name="utils04.ConfigsReader"/>
+    <fullyQualifiedTypeName name="utils05.BaseClass"/>
+    <fullyQualifiedTypeName name="utils06.ConfigsReader"/>
+    <fullyQualifiedTypeName name="utils08.ConfigsReader"/>
+    <fullyQualifiedTypeName name="utils09.ConfigsReader"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="utils10.ConfigsReader"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
+    <fullyQualifiedTypeName name="junit.framework.Assert"/>
+    <fullyQualifiedTypeName name="yerlitas.utils.Constants"/>
+    <fullyQualifiedTypeName name="yerlitas.utils.ConfigsReader"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.NoSuchFrameException"/>
+    <fullyQualifiedTypeName name="utils10.Constants"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="com.neotech.utils.ConfigsReader"/>
+    <fullyQualifiedTypeName name="bsh.org.objectweb.asm.Constants"/>
+    <fullyQualifiedTypeName name="com.aventstack.extentreports.reporter.configuration.Theme"/>
+    <fullyQualifiedTypeName name="yerlitas2.utils.ConstantsYerlitas2"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="utils01.Constants"/>
+    <fullyQualifiedTypeName name="utils05.ConfigsReader"/>
+    <fullyQualifiedTypeName name="io.cucumber.junit.Cucumber"/>
+    <fullyQualifiedTypeName name="yerlitas.testbase.BaseClass"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.Before"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.After"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Sheet"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+>>>>>>> Stashed changes
 </qualifiedTypeNameHistroy>

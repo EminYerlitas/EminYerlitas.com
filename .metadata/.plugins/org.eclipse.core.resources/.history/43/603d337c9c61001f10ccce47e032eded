@@ -1,0 +1,19 @@
+package com.utils.neotech;
+
+import com.utils.neotech.CommonMethods;
+
+public class AddAnEmployee extends CommonMethods{
+
+	public static void main(String[] args) {
+		/*
+		 * Go to url: https://hrm.neotechacademy.com/ Log in using our custom methods Go
+		 * to PIM menu Add an employee Wait for employee details to show Click on the
+		 * employee image Upload an image in the employee photo
+		 */
+		setUp();
+		
+		
+
+	}
+
+}

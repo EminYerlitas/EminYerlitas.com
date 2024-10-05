@@ -1,0 +1,22 @@
+package actions;
+
+import org.openqa.selenium.By;
+
+import com.utils.neotech.CommonMethods;
+
+public class FileUpload1 extends CommonMethods {
+
+	public static void main(String[] args) {
+		/*
+		 * Upload a file: http://webdriveruniversity.com/File-Upload/index.html
+		 */
+		setUp();
+		String filePath=System.getProperty("user.dir")+"/screenshotFolder/Homework1/facebook-login.png";
+		sendText(driver.findElement(By.id("myFile")),filePath);
+		click(driver.findElement(By.id("submit-button")));
+		
+		
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package actions;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+
+import com.google.common.io.Files;
+import com.utils.neotech.CommonMethods;
+
+public class Screenshot3 extends CommonMethods {
+
+	public static void main(String[] args) {
+		setUp();
+		 TakesScreenshot a=(TakesScreenshot) driver;
+	        File screenshot= a.getScreenshotAs(OutputType.FILE);
+	        File screenshotFolder=new File("screenshots/Homework");
+	        try {
+	        	if(!screenshotFolder.exists()) {
+	        		screenshotFolder.mkdirs();
+	        	}
+	        	File screenshotPath=new File("screenshots/Homework/facebook-login.png");
+	        	Files.copy(screenshotFolder, screenshotPath);
+	        }
+	        catch(IOException e) {
+	        	e.printStackTrace();
+	        	System.out.println("Unable to save the screenshot!");
+	        }
+		
+	}
+
+}

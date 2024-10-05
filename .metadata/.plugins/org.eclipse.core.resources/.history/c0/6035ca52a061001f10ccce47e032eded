@@ -1,0 +1,26 @@
+package project1;
+
+import org.openqa.selenium.By;
+
+import com.utils.neotech.CommonMethods;
+import com.utils.neotech.ConfigsReader;
+
+public class AddAnEmployee extends CommonMethods{
+
+	public static void main(String[] args) {
+		/*
+		 * Go to url: https://hrm.neotechacademy.com/ Log in using our custom methods Go
+		 * to PIM menu Add an employee Wait for employee details to show Click on the
+		 * employee image Upload an image in the employee photo
+		 */
+		setUp();
+		sendText(driver.findElement(By.name("txtUsername")),ConfigsReader.getProperty("username"));
+		sendText(driver.findElement(By.name("txtPassword")),ConfigsReader.getProperty("txtPassword"));
+		click(driver.findElement(By.linkText("submit")));
+		
+		
+		
+
+	}
+
+}
