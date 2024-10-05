@@ -1,0 +1,37 @@
+package actions;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.utils.neotech.CommonMethods;
+import com.utils.neotech.ConfigsReader;
+
+public class ScreenShot2 extends CommonMethods {
+
+	public static void main(String[] args) {
+		setUp();
+		sendText(driver.findElement(By.id("txtUsername")), ConfigsReader.getProperty("username"));
+		sendText(driver.findElement(By.id("txtPassword")), ConfigsReader.getProperty("password"));
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		waitForVisibility(driver.findElement(By.xpath("//span[contains(text(),'PIM')]")));
+		driver.findElement(By.xpath("//span[contains(text(),'PIM')]")).click();
+		waitForVisibility(driver.findElement(By.xpath("//a[@id='menu_pim_addEmployee']//span[contains(text(),'Add Employee')]")));
+	    driver.findElement(By.xpath("//span[contains(text(),'Employee List')]")).click();
+	        wait(2);
+	        List<WebElement>rows=driver.findElements(By.xpath("//*[@id=\"employeeListTable\"]//td/tr"));
+	        for(int a=0;a<rows.size();a++) {
+	        	String name="John Jimmy Marston ";
+	        	WebElement names=driver.findElement(By.xpath("//*[@id=\"employeeListTable\"]//td["+(a+1)+"]/tr[3]"));
+	        	if(names.getText().equals(name)) {
+	        		WebElement names2=driver.findElement(By.xpath("//*[@id=\"employeeListTable\"]//td["+(a+1)+"]/tr[3]"));
+	        		names2.click();
+	        		break;
+	        	}
+	        	
+	        }
+
+	}
+
+}

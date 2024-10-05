@@ -1,0 +1,25 @@
+package actions;
+
+import org.openqa.selenium.By;
+
+import com.utils.neotech.CommonMethods;
+import com.utils.neotech.ConfigsReader;
+
+public class Screenshot1 extends CommonMethods {
+
+	public static void main(String[] args) {
+		/*
+		 * Go to https://hrm.neotechacademy.com/ Log in using our custom methods Go to
+		 * PIM menu Add an employee Go to Employee List Get the list of the employees
+		 * (Using tables - tr and td) Loop to search for the employee you added When you
+		 * find the employee - click on it. Take a screenshot
+		 */
+		setUp();
+		sendText(driver.findElement(By.id("txtUsername")), ConfigsReader.getProperty("username"));
+		sendText(driver.findElement(By.id("txtPassword")),ConfigsReader.getProperty("password"));
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		waitForVisibility(driver.findElement(By.xpath("//span[contains(text(),'PIM')]")));
+		
+	}
+
+}

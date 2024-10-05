@@ -1,0 +1,19 @@
+package programmingQuestions2;
+
+public class ReverseString2 {
+
+	public static void main(String[] args) {
+		String a="annunaki";
+		StringBuffer b= new StringBuffer(a);
+		b.reverse();
+		System.out.println(b);
+		char Array[]=new char[a.length()];
+		String reverse="";
+		System.out.println(Array.length);
+		for(int i=Array.length-1; i<Array.length-1;i--) {
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package actions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+import com.utils.neotech.CommonMethods;
+
+public class DragDemo extends CommonMethods {
+
+	public static void main(String[] args) {
+		/*
+		 * Homework 1: Open chrome browser Go to
+		 * https://demo.guru99.com/test/drag_drop.html Drag the following blocks in
+		 * different ways Drag BANK to DEBIT SIDE Drag SALES to CREDIT SIDE Drag 5000 to
+		 * DEBIT SIDE Drag 5000 to CREDIT SIDE Close the browser
+		 * 
+		 */
+         setUp();
+         WebElement drag1=driver.findElement(By.id("credit2"));
+         Actions action=new Actions(driver);
+         WebElement drag1area=driver.findElement(By.xpath("//ol[@id='bank']"));
+         action.dragAndDrop(drag1, drag1area).perform();
+         
+		
+		
+	}
+
+}

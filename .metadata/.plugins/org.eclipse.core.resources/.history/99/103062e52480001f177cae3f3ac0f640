@@ -1,0 +1,15 @@
+package day1;
+
+public class AlphaCharacter2 {
+
+	public static void main(String[] args) {
+		String str = "gak, gok, guk.";
+		String a = str.replaceAll("^[a-z,A-Z]", "");
+		System.out.println("Number of Alpha Characters: " + a.length());
+		System.out.println("Length of sentence: " + str.length());
+		String[] array = str.split(" ");
+		System.out.println("Number of words: " + array.length);
+
+	}
+
+}

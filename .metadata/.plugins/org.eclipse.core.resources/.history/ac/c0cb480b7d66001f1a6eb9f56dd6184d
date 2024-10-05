@@ -1,0 +1,22 @@
+package programmingQuestions2;
+
+public class ReverseString2 {
+
+	public static void main(String[] args) {
+		String a="annunaki";
+		StringBuffer b= new StringBuffer(a);
+		b.reverse();
+		System.out.println(b);
+		char Array[]=new char[a.length()];
+		String reverse="";
+		for(int i=Array.length-1; i<Array.length-1;i--) {
+			 char Array2[]=a.toCharArray();
+			 reverse+=Array2[i];
+			 
+			
+		}
+		System.out.println(reverse);
+
+	}
+
+}

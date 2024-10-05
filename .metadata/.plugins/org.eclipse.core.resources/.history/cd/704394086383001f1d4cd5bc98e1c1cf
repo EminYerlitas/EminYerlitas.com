@@ -1,0 +1,15 @@
+@addMembership
+Feature: Add Membership
+
+  Background: 
+    Given user is logging in with valid credentials
+    And user navigates to PIM
+    And user clicks on Employee list
+    Scenario:
+    When user clicks on Employee Name
+    And user clicks on More button
+    And user clicks on Membership button from dropdown
+    And user clicks on + button on the top right corner
+    
+
+

@@ -1,0 +1,35 @@
+package day1;
+
+public class PrimeorNot {
+	
+	
+	public static void main(String[] args) {
+		int number=31;
+		boolean isPrime=true;
+		if(number<2) {
+			System.out.println("Enter a number more than 2");
+		}
+		if(number==2) {
+			System.out.println("Is number prime? "+isPrime);
+		}
+		for(int i=2;i<number;i++) {
+			if(number%i==0) {
+				isPrime=false;
+				System.out.println("Is number prime? "+isPrime);
+				break;
+			}
+			else {
+				System.out.println("Is number prime? "+isPrime);
+			}
+			break;
+		}
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

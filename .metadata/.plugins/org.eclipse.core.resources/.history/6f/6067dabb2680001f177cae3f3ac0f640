@@ -1,0 +1,24 @@
+package day1;
+
+import java.util.Arrays;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		/*
+		 * soru --> Write a Java Program to print the first 10 numbers of Fibonacci
+		 * series. soru --> Find out how many alpha characters are present in a String?
+		 * Find the number of words in a string?
+		 */
+		int[]array=new int[10];
+		array[1]=1;
+		array[0]=1;
+		for(int i=2;i<array.length;i++) {
+			array[i]=array[i-1]+array[i-2];
+		}
+		System.out.println(array.toString());
+		
+
+	}
+
+}

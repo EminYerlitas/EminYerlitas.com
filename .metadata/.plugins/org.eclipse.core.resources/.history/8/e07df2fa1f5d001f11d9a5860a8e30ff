@@ -1,0 +1,38 @@
+package actions;
+
+import org.openqa.selenium.By;
+
+import com.utils.neotech.CommonMethods;
+import com.utils.neotech.ConfigsReader;
+
+public class Screenshot1 extends CommonMethods {
+
+	public static void main(String[] args) {
+		/*
+		 * Go to https://hrm.neotechacademy.com/ Log in using our custom methods Go to
+		 * PIM menu Add an employee Go to Employee List Get the list of the employees
+		 * (Using tables - tr and td) Loop to search for the employee you added When you
+		 * find the employee - click on it. Take a screenshot
+		 */
+		setUp();
+		sendText(driver.findElement(By.id("txtUsername")), ConfigsReader.getProperty("username"));
+		sendText(driver.findElement(By.id("txtPassword")), ConfigsReader.getProperty("password"));
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		waitForVisibility(driver.findElement(By.xpath("//span[contains(text(),'PIM')]")));
+		driver.findElement(By.xpath("//span[contains(text(),'PIM')]")).click();
+		waitForVisibility(driver.findElement(By.xpath("//a[@id='menu_pim_addEmployee']//span[contains(text(),'Add Employee')]")));
+        driver.findElement(By.xpath("//a[@id='menu_pim_addEmployee']//span[contains(text(),'Add Employee')]")).click();
+        wait(10); 
+        sendText(driver.findElement(By.id("first-name-box")), "John");
+        sendText(driver.findElement(By.id("middle-name-box")),"Jimmy");
+        sendText(driver.findElement(By.id("last-name-box")),"Marston");
+        sendText(driver.findElement(By.id("employeeId")),"52");
+        selectDropdown(driver.findElement(By.id("location")),5);
+        driver.findElement(By.id("modal-save-button")).click();
+        
+        
+        
+        
+	}
+
+}
