@@ -900,6 +900,7 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 !ENTRY ch.qos.logback.classic 1 0 2024-08-11 12:47:30.019
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
@@ -5397,6 +5398,9 @@ java.lang.Error: SWT Resource was not properly disposed
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-05 18:27:52.033
+=======
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-04 21:03:14.316
+>>>>>>> Stashed changes
 =======
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-04 21:03:14.316
 >>>>>>> Stashed changes

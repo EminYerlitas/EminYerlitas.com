@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
     <fullyQualifiedTypeName name="com.neotech.lesson01.TestClass"/>
     <fullyQualifiedTypeName name="java.security.DomainLoadStoreParameter"/>
@@ -36,6 +37,18 @@
     <fullyQualifiedTypeName name="io.opentelemetry.exporter.logging.SystemOutLogRecordExporter"/>
     <fullyQualifiedTypeName name="day6.ConfigsReader"/>
     <fullyQualifiedTypeName name="com.utils.neotech.ConfigsReader"/>
+=======
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
+    <fullyQualifiedTypeName name="com.utils.neotech.BaseClass"/>
+    <fullyQualifiedTypeName name="com.google.common.io.Files"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="io.opentelemetry.exporter.logging.SystemOutLogRecordExporter"/>
+    <fullyQualifiedTypeName name="day6.ConfigsReader"/>
+    <fullyQualifiedTypeName name="com.utils.neotech.ConfigsReader"/>
+>>>>>>> Stashed changes
     <fullyQualifiedTypeName name="day7.ConfigsReader"/>
     <fullyQualifiedTypeName name="day8.Constants"/>
     <fullyQualifiedTypeName name="day9.ConfigsReader"/>
@@ -86,5 +99,8 @@
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 </qualifiedTypeNameHistroy>

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:.metadata/.plugins/org.eclipse.core.resources/.history/97/60853acc2480001f177cae3f3ac0f640
 package day1;
 
@@ -5,6 +6,13 @@ public class AlphaCharacter2 {
 ========
 package project1;
 
+=======
+package project1;
+
+<<<<<<<< Updated upstream:.metadata/.plugins/org.eclipse.core.resources/.history/e8/308f55149762001f104ad79b6f34e842
+public class OrangeHRMLogin2 {
+========
+>>>>>>> Stashed changes
 public class OrangeHRMLogin1 {
 >>>>>>>> Stashed changes:.metadata/.plugins/org.eclipse.core.resources/.history/a/c0efd1979262001f104ad79b6f34e842
 

@@ -1,6 +1,10 @@
 package project1;
 
+<<<<<<<< Updated upstream:.metadata/.plugins/org.eclipse.core.resources/.history/4/506763740f61001f1046a15b63c5dd43
 public class OrangeHRMWrongPasswordValidation {
+========
+public class ScrollDownContinuously {
+>>>>>>>> Stashed changes:.metadata/.plugins/org.eclipse.core.resources/.history/af/d0d045151161001f1046a15b63c5dd43
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:.metadata/.plugins/org.eclipse.core.resources/.history/27/d005e9a6b782001f1b0ca1e5b770381c
 package day1;
 
@@ -7,6 +8,11 @@ package project1;
 
 public class Try1 {
 >>>>>>>> Stashed changes:.metadata/.plugins/org.eclipse.core.resources/.history/a6/c0df5f154663001f1222829be78b017a
+=======
+package project1;
+
+public class Try1 {
+>>>>>>> Stashed changes
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,6 +1,10 @@
 package project1;
 
+<<<<<<<< Updated upstream:.metadata/.plugins/org.eclipse.core.resources/.history/e8/308f55149762001f104ad79b6f34e842
 public class OrangeHRMLogin2 {
+========
+public class OrangeHRMLogin1 {
+>>>>>>>> Stashed changes:.metadata/.plugins/org.eclipse.core.resources/.history/a/c0efd1979262001f104ad79b6f34e842
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

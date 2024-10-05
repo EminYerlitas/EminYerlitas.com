@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:.metadata/.plugins/org.eclipse.core.resources/.history/d3/102be0142780001f177cae3f3ac0f640
 package day1;
 
@@ -7,6 +8,11 @@ package actions;
 
 public class EscTabEnter {
 >>>>>>>> Stashed changes:.metadata/.plugins/org.eclipse.core.resources/.history/ac/b00360b93962001f13feb77cb9b014cd
+=======
+package actions;
+
+public class EscTabEnter {
+>>>>>>> Stashed changes
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

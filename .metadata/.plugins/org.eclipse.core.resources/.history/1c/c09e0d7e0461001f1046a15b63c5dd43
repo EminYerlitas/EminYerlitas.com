@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:.metadata/.plugins/org.eclipse.core.resources/.history/da/b0d687967b66001f1a6eb9f56dd6184d
 package programmingQuestions2;
 
@@ -7,6 +8,11 @@ package project1;
 
 public class OrangeHRMBlankPasswordValidation {
 >>>>>>>> Stashed changes:.metadata/.plugins/org.eclipse.core.resources/.history/1c/c09e0d7e0461001f1046a15b63c5dd43
+=======
+package project1;
+
+public class OrangeHRMBlankPasswordValidation {
+>>>>>>> Stashed changes
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

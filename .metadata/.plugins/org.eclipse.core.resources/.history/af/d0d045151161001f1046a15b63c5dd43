@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:.metadata/.plugins/org.eclipse.core.resources/.history/ea/f0ef3f227f66001f1a6eb9f56dd6184d
 package programmingQuestions2;
 
@@ -5,6 +6,13 @@ public class Swap2Strings {
 ========
 package project1;
 
+=======
+package project1;
+
+<<<<<<<< Updated upstream:.metadata/.plugins/org.eclipse.core.resources/.history/4/506763740f61001f1046a15b63c5dd43
+public class OrangeHRMWrongPasswordValidation {
+========
+>>>>>>> Stashed changes
 public class ScrollDownContinuously {
 >>>>>>>> Stashed changes:.metadata/.plugins/org.eclipse.core.resources/.history/af/d0d045151161001f1046a15b63c5dd43
 
